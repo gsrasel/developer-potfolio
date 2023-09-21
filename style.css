@@ -6,7 +6,7 @@ body{
 .container{
     display: flex;
     background-image: url(images/top-banner.png);
-    margin: 0;
+    margin-bottom: 140px;
     padding: 0;
     font-family: 'poppins';
     align-items: center;
@@ -49,4 +49,42 @@ span{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.link-btn{
+    /* background-color: orange; */
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    /* background-image: linear-gradient(blue green); */
+    padding: 10px 40px;
+    margin:10px 0;
+   /* background: linear-gradient(45deg orange rgb(249, 17, 17)); */
+   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: 7px;
+}
+.experiences{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/exp-bg.png);
+    margin-top: 20px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.developer-side{
+    text-align: justify;
+    width: 40%;
+    margin-left: 40px;
+    box-shadow: 10px 10px 20px gray;
+    margin-bottom: 30px;
+    padding: 15px 14px;
+    border-left:5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+}
+.text-orange{
+    font-size: 24px;
+    font-weight: 600;
+    color: orange;
+
 }
